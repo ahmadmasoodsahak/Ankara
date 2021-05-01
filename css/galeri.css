@@ -1,0 +1,44 @@
+.section {
+  padding: 7em 0;
+}
+.img-hover-zoom {
+  padding: 20px;
+  transition: transform .2s;
+ 
+  margin: 0 auto;
+}
+
+.img-hover-zoom:hover {
+  transform: scale(1.10); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ankara ili hakkında bir site">
+  <meta name="keywords" content="Ankara, Türkiye Başketi">
+  <meta name="author" content="Nesrin Düzgün, Ahmet Can Doğanoğlu, Selçuk Arslan, Ahmad Kaleem Bareewal, Ahmad Masood Sahak">
+  <link rel="icon" type="image/png" href="../images/icon1.png">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/font.css">
+  <link rel="stylesheet" type="text/css" href="../css/intro.css">
+  <title>Gezilecek Yerler</title>
+</head>
+<body>
+  <header class="position-absolute w-100">
+    <nav id="menu" class="navbar navbar-expand-xxl navbar-dark" style="background-color: transparent;"> 
+      <div class="container-fluid p-3">
+        <a class="navbar-brand fs-2 font-Abril" href="#">Ankara</a>
+        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <span class="navbar-toggler-icon fs-3"></span>
+        </button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content p-5">
+              <div class="modal-header border-0 fs-3">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center font-Abril">
+                <ul class="navbar-nav flex-column me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link fs-2" aria-current="page"  href="../index.html">Anasayfa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-2" href="Anıtkabir.html">Anıtkabir</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-2" href="gezilecekYerler.html" style="color:#65c0ba">Gezilecek Yerler</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-2" href="Yemekler.html">Ankara'nın Yemekleri</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-2" href="galeri.html">Galeri</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-2" href="Yazarlar.html">Yazarlar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fs-2" href="iletişim.html">İletişim</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="introimage" class="site-hero overlay page-inside w-100 mb-5" style="background-image: url(../images/intro.jpg)">
+    <div class="container">
+      <div class="row site-hero-inner justify-content-center align-items-center">
+        <div class="col-md-10 text-center">
+          <h1 class="text-white font-Abril" style="font-size: 70px">Gezilecek Yerler</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background-color: #4a928c;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="10 120 1400 320"><path fill="#fff" fill-opacity="1" d="M0,224L40,213.3C80,203,160,181,240,192C320,203,400,245,480,266.7C560,288,640,288,720,272C800,256,880,224,960,218.7C1040,213,1120,235,1200,245.3C1280,256,1360,256,1400,256L1440,256L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    <div>
+      <div>
+        <p class="font-Abril text-center pb-3" style="font-size: 60px; margin-top: 0;">Ankara’da Gezilecek Yerler</p>
+      </div>
+      <div class="row d-flex align-items-center justify-content-center">
+        <div  class="col-8 col-lg-3 col-md-5 m-4 p-0" id="icCard">
+          <div data-aos="fade-right" data-aos-duration="2000">
+            <a href="#rahmikoc" style="text-decoration: none;">
+              <img src="https://blog.obilet.com/wp-content/uploads/2018/11/Rahmi_koc.webp" class="img-fluid rounded-0" style="height: 200px; width: 100%;" alt="resim">
+              <div class="card-body bg-white">
+                <h5 class="font-Abril fs-3 mt-0 mb-3 text-dark">Rahmi M. Koç Müzesi</h5>
+                <p class="font-Mukta" style="color: #4a928c; font-weight: 200; font-size: 18px; line-height: 1.8;">
+                  Ankara’daki sanayi temalı tek müze olan Rahmi M. Koç Müzesi Ankara’da ziyareti hak eden yerlerden.
+                  Müze içerisinde sanayi dışında ulaşım ve iletişim alanında da oldukça geniş bir koleksiyon mevcut.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div  class="col-8 col-lg-3 col-md-5 m-4 p-0" id="icCard">
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <a href="#kocatepe" style="text-decoration: none;">
+              <img src="../images/kocatepe.jpg" class="img-fluid rounded-0" style="height: 200px; width: 100%;" alt="resim">
+              <div class="card-body bg-white">
+                <h5 class="font-Abril fs-3 mt-0 mb-3 text-dark">Kocatepe Camii</h5>
+                <p class="font-Mukta" style="color: #4a928c; font-weight: 200; font-size: 18px; line-height: 1.8;">
+                  İnşasına 1967’de başlanılan caminin tamamlanması 20 yıl sürmüş.
+                  1987’de hizmete açılan cami bugün başkentin en büyük ve ihtişamlı dini yapılarından.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div  class="col-8 col-lg-3 col-md-5 m-4 p-0 " id="icCard">
+          <div data-aos="fade-left" data-aos-duration="2000">
+            <a href="#medeniyet" style="text-decoration: none;">
+              <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2020/02/12/thumbs_b_c_1efb4dab87cf2540b6acb3d31376c610.jpg" class="img-fluid rounded-0" style="height: 200px; width: 100%;" alt="resim">
+              <div class="card-body bg-white">
+                <h5 class="font-Abril fs-3 mt-0 mb-3 text-dark">Anadolu Medeniyetleri
+                Müzesi</h5>
+                <p class="font-Mukta" style="color: #4a928c; font-weight: 200; font-size: 18px; line-height: 1.8;">
+                Paleolitik Çağ’dan Osmanlı’ya kadarki zamanın tarihi ve kültürel mirasına ev sahipliği yapan Ankara'nın en önemli müzelerden biri.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div  class="col-8 col-lg-3 col-md-5 m-4 p-0" id="icCard">
+          <div data-aos="fade-right" data-aos-duration="2000">
+            <a href="#ankaraKalesi" style="text-decoration: none;">
+              <img src="https://blog.obilet.com/wp-content/uploads/2018/04/Ankara-Kalesi.webp" class="img-fluid rounded-0" style="height: 200px; width: 100%;" alt="resim">
+              <div class="card-body bg-white">
+                <h5 class="font-Abril fs-3 mt-0 mb-3 text-dark">Ankara Kalesi</h5>
+                <p class="font-Mukta" style="color: #4a928c; font-weight: 200; font-size: 18px; line-height: 1.8;">
+                  Ankara Kalesi şehre hâkim bir tepede konumlanıyor.
+                  Ankara kadar kadim olan kalede Galatlardan Osmanlı’ya kadar onlarca medeniyetin kalp atışlarını duymak mümkün.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div  class="col-8 col-lg-3 col-md-5 m-4 p-0" id="icCard">
+          <div data-aos="fade-up" data-aos-duration="2000">
+            <a href="#gordion" style="text-decoration: none;">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Gordion_m%C3%BCzesi.JPG" class="img-fluid rounded-0" style="height: 200px; width: 100%;" alt="resim">
+              <div class="card-body bg-white">
+                <h5 class="font-Abril fs-3 mt-0 mb-3 text-dark">Gordion Müzesi</h5>
+                <p class="font-Mukta" style="color: #4a928c; font-weight: 200; font-size: 18px; line-height: 1.8;">
+                  Gordion Müzesi 1963’de 15.000 kilometrekarelik bir alan üzerine inşa edilmiş
+                  Gordion Müzesi’nde yakınlarında bulunan Gordion Antik Kenti‘nden çıkan eserler sergileniyor.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div  class="col-8 col-lg-3 col-md-5 m-4 p-0" id="icCard">
+          <div data-aos="fade-left" data-aos-duration="2000">
+            <a href="#Augustus" style="text-decoration: none;">
+              <img src="https://www.gezipedia.net/uploads/posts/2020-05/1590104778_augustus-tapinagi.jpg" class="img-fluid rounded-0" style="height: 200px; width: 100%;" alt="resim">
+              <div class="card-body bg-white">
+                <h5 class="font-Abril fs-3 mt-0 mb-3 text-dark">Augustus Tapınağı</h5>
+                <p class="font-Mukta" style="color: #4a928c; font-weight: 200; font-size: 18px; line-height: 1.8;">
+                  Ulus’ta bulunan tapınak binlerce yıllık köklü bir geçmişe sahip.
+                  Tapınağı dünyaca ünlü yapan neden ise içerisinde Monumentum Ankyranum ya da Ankara Anıtı’nı bulunduruyor olması.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L40,213.3C80,203,160,181,240,192C320,203,400,245,480,266.7C560,288,640,288,720,272C800,256,880,224,960,218.7C1040,213,1120,235,1200,245.3C1280,256,1360,256,1400,256L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+  </section>
+
+  <section id="ankaraTrailer">
+    <a name="rahmikoc"></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 col-md-12 mt-5 p-0">
+          <img src="https://blog.obilet.com/wp-content/uploads/2018/11/Rahmi_koc.webp" class="img-fluid w-100 h-100">
+        </div>
+        <div class="col-12 col-lg-6 col-md-12 mt-5 p-5 d-flex align-items-center mt-md-0" id="text" style="height: 500px" data-aos="fade-right" data-aos-duration="2000">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="font-Abril">Rahmi M. Koç Müzesi</h1>
+            </div>
+            <div class="col-12">
+              <p class="font-Mukta">
+               Ankara’nın ilk sanayi müzesidir. Müzenin
+               yer aldığı han 1522 yılında yaptırılmıştır.
+               Kanuni Sultan Süleyman’ın damadı Damat
+               Rüstem Paşa’nın vakfına bağlı olduğu bilinen
+               Çengelhan, Ankara ilinin hanlar bölgesinde
+               özgünlüğünü bugüne kadar koruyabilen ender
+               yapılarındandır. Han, Ankara Kalesi’nin ana
+               giriş kapısının karşısında, eskiden Atpazarı
+               olarak anılan mevkide, bedestenlerin yakınlarına
+               konumlandırılmıştır. Dönemin en büyük
+               dört hanından biri olan Çengelhan, Koç
+               Holding kurucusu Vehbi Koç’un iş yaşantısına
+               başladığı yıllarda kullandığı bir dükkâna da ev
+               sahipliği yapmıştır. 2003–2005 yılları arasında
+               gerçekleştirilen yenileme çalışmasında han,
+               aslına uygun olarak yeniden yapılandırılmıştır.
+               Müze toplam olarak 32 odada denizcilikten
+               karayolu taşımacılığına, havacılıktan tıbba kadar
+               pek çok sanayi kolunun geçmişini gözler önüne
+               seren 4.000’den fazla nesne ile ziyaretçilerini
+               karşılar.
+               Nesneleri büyüklükleri açısından ise küçük
+               modellerden, buhar motorlarına ve klasik
+               otomobillere kadar uzanan zengin bir çeşitlilik
+             gösterir.</p>
+           </div>
+         </div>       
+       </div>
+     </div>
+   </div>
+ </section>
+
+<section id="ankaraTrailer">
+  <a name="kocatepe"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 col-md-12 p-5 d-flex align-items-center mt-md-0" id="text" style="height: 500px" data-aos="fade-left" data-aos-duration="2000">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="font-Abril">Kocatepe Camii</h1>
+          </div>
+          <div class="col-12">
+            <p class="font-Mukta">
+              Kocatepe semtinde, 1967 yılında
+              yapımına başlanan cami, dört
+              minaresi ile Selimiye Camisini,
+              merkezi kubbe ve yarım kubbeleri
+              ile de Sultan Ahmet Camisini
+              andırır. 4500 m² 'lik bir alan üzerinde inşa edilen caminin alt kısmında konferans salonu, kütüphane, otopark, ticarethane ve idari birimler bulunmakta, Mimar Sinan'ın geliştirdiği mimari üsluba bağlı kalınarak inşa edilen Kocatepe Camii'nin ana mekânı 4 fil ayağı üzerine oturan bir merkezi kubbe ile dört yarım kubbeden oluşur. Caminin 88 m uzunluğunda 4 minaresi vardır.[2] Minarelerin şerefelerine hem asansörle hem de merdivenle çıkılır. Camideki yazılar Hamit Aytaç ve Mahmut Öncü tarafından, konferans salonundaki yazılar ise Emin Barın tarafından yazılmıştır. Caminin halı desenleri Afyonkarahisar Ulu Camii'ndeki halı desenleri göz önüne alınarak hazırlanmıştır. Caminin avizeleri, mihrabı, minberi, kapıları, çinileri ve mermerleri özel olarak tasarlanmış ve ince bir işçilikle yapılmıştır. İç tezyinatta Klasik Osmanlı Mimarisi örnek alınmış, malzeme olarak çini, mermer, sarı maden, altın varak ve özel boyalar kullanılmıştır.</p>
+          </div>
+        </div>       
+      </div>
+      <div class="col-12 col-lg-6 col-md-12 p-0 order-first order-lg-last order-md-first order-sm-first order-xl-last">
+        <img src="https://blog.obilet.com/wp-content/uploads/2018/04/Kocatepe-Camii.webp" class="img-fluid w-100 h-100">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ankaraTrailer">
+  <a name="medeniyet"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 col-md-12 p-0 mt-sm-5 mt-md-0">
+        <img src="https://blog.obilet.com/wp-content/uploads/2018/04/anadolu-medeniyetleri-m%C3%BCzesi.webp" class="img-fluid w-100 h-100">
+      </div>
+      <div class="col-12 col-lg-6 col-md-12 p-5 d-flex align-items-center" id="text" style="height: 500px" data-aos="fade-right" data-aos-duration="2000">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="font-Abril">Anadolu Medeniyetleri Müzesi</h1>
+          </div>
+          <div class="col-12">
+            <p class="font-Mukta">
+              Anadolu Medeniyetleri Müzesi, Atpazarı
+              olarak adlandırılan semtte, Ankara Kalesi’nin
+              dış duvarının güneydoğu kıyısında yeni
+              işlev verilerek düzenlenmiş iki Osmanlı
+              binasından oluşmaktadır. Mahmut Paşa
+              Bedesteni’nin Fatih dönemi baş vezirlerinden
+              Mahmut Paşa tarafından 1464–1471 yılları
+              arasında yapıldığı tahmin edilmektedir.
+              Kurşunlu Han’ın ise Fatih dönemi baş
+              vezirlerinden Mehmet Paşa’nın İstanbul’un
+              Üsküdar ilçesindeki imaretine vakıf olarak
+              yaptırılmıştır. 1881 yılındaki yangından
+              sonra terk edilen her iki yapı daha sonra
+              Atatürk’ün isteği ile Anadolu’dan toplanan
+              eserleri sergilemek amacıyla uzun yıllar süren
+              yenileme çalışmaları sonucunda müzeye
+              dönüştürülmüştür.
+              Bugün kendine özgü koleksiyonları ile
+              dünyanın sayılı müzeleri arasında yer alan
+              Anadolu Medeniyetleri Müzesi’nde Anadolu
+              Arkeolojisi, Paleolithik Çağ’dan başlayarak
+              günümüze kadar Osmanlı devrinin bu
+              tarihi mekânlarında kronolojik bir sırayla
+            sergilenmektedir. </p>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ankaraTrailer">
+  <a name="ankaraKalesi"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 col-md-12 p-5 d-flex align-items-center" id="text" style="height: 500px" data-aos="fade-left" data-aos-duration="2000">
+        <div class="row">
+          <div class="col-12 p-0">
+            <h1 class="font-Abril">Ankara Kalesi</h1>
+          </div>
+          <div class="col-12 p-0">
+            <p class="font-Mukta">
+              Ankara’ya hâkim bir tepenin üzerinde
+              kurulmuş olan ve zaman içinde kentin
+              simgesi haline gelen Ankara Kalesi’nin ilk
+              yapım tarihi kesin olarak bilinmemektedir.
+              MÖ II. yüzyılda Galatlar zamanında var
+              olduğu bilinen kale, Romalılar döneminde
+              onarım görmüştür. İç ve dış kale olmak
+              üzere iki kısımdan oluşan kalenin iç surları
+              büyük bir olasılıkla VII. yüzyılda Bizanslılar
+              tarafından inşa edilmiştir. Arap saldırıları
+              sırasında çok tahrip olan kalenin surları
+              IX. yüzyılda Bizanslılar tarafından yeniden
+              onarılmıştır. Dış surların ne zaman eklendiği
+              kesin olarak saptanamamıştır. 1073 yılında
+              Selçukluların eline geçmiş, Osmanlılar
+              döneminde çeşitli onarımlar görmüş, son
+              yıllarda yapılan yenileme çalışmalarıyla
+              sağlamlaştırılmıştır.
+              Dış kalede dörtgen şeklinde 20 kule, batıda
+              “ Dış Kale Kapısı” ve güneyde “Hisar Kapısı”
+              olmak üzere iki kapısı vardır. Hisar Kapısı’nın
+              üzerinde İlhanlılar dönemine ait 1330
+              tarihli Farsça bir yazıt bulunmaktadır. Şekil
+              olarak dikdörgeni andıran içi kale, kısmen
+              Ankara taşı, kısmen de karışık malzemeden
+              yapılmıştır. İç Kale, yükseklikleri 14–16 metre
+              arasında değişen beşgen şeklinde 42 kuleden
+              oluşmaktadır. Kale içindeki XVII. yüzyıl
+              Osmanlı döneminden kalan Ankara Evleri ve
+            Alâeddin Camisi halen ayaktadır.</p>
+          </div>
+        </div>       
+      </div>
+      <div class="col-12 col-lg-6 col-md-12 p-0 mt-0 order-first order-sm-first order-md-first order-lg-last order-xl-last">
+        <img src="https://pbs.twimg.com/media/Ez_87BlXoAorLjj?format=jpg&name=4096x4096" class="img-fluid w-100 h-100">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ankaraTrailer">
+  <a name="gordion"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 col-md-12 p-0 mt-sm-5 mt-md-0">
+        <img src="https://blog.obilet.com/wp-content/uploads/2018/04/gordion-m%C3%BCzesi.jpg" class="img-fluid w-100 h-100">
+      </div>
+      <div class="col-12 col-lg-6 col-md-12 p-4 d-flex align-items-center" id="text" style="height: 500px" data-aos="fade-right" data-aos-duration="2000">
+        <div class="row mt-3">
+          <div class="col-12 p-0">
+            <h1 class="font-Abril">Gordion Müzesi</h1>
+          </div>
+          <div class="col-12 p-0">
+            <p class="font-Mukta">
+              1963 yılında yaklaşık 250 nüfuslu bir köyde
+              kurulan Gordion Müzesi, 1990’lı yıllarda
+              eklenen depoları, laboratuarı, görüntü ve
+              bilgilendirme salonu, açık ve kapalı teşhiri,
+              açıklama bilgileri ile Türkiye’nin önemli
+              müzelerinden birisidir. Başta Gordion
+              kazılarından olmak üzere, Polatlı ilçesi
+              civarından derlenen eserlerden kronolojik
+              bir sergileme sunan müze, 2000 yılında
+              Avrupa’da Yılın Müzesi yarışmasında finale
+              kalmıştır. Müzede sergilenen eserler arasında
+              Eski Tunç Çağı’ndan başlayarak, Orta ve Geç
+              Tunç Çağına, Erken Frig Çağı’na ait çanak
+              çömlekler, Erken Demir Çağı’na ait kabartmalı
+              ortostatlar, yine Erken Frig Çağı’na ait demir
+              aletler yer alır. Dokumacılıkta kullanılan
+              ağırşaklar, cam, mühür ve mühür baskıları,
+              MÖ 4. ve MÖ 2. yüzyıllar arasına tarihlenen
+              İskender sikkeleri giriş salonunda yer
+              almaktadır.
+              Yener Yılmaz salonunda ise MÖ 8. ve MÖ 4.
+              yüzyıllar arasında tarihlenen Geç Frig ve
+              ithal seramikler ile Lidya dönemi, Helenistik
+              dönem ve Roma dönemine ait eserler
+              sergilenmektedir. Bunların dışında, Frig yazıtlı
+              ve baskılı çanak çömlekler, Frig mimarisine
+              ait pişmiş kil eşyalar, çeşitli malzemelerden
+              yapılmış eserler ile Kibele kabartmaları ve
+              figürler önemli yer tutar. Polatlı Höyük’ten
+              getirilen ve Anadolu’nun en eski halkı olarak
+              bilinen Hatti’lere ait ölü gömme şekillerini
+              gösteren mezarlar müzenin diğer sergileri
+              arasında yer alır. Galat Mezarı ile Frig ve
+              Roma mozaikleri müzenin bahçesinde
+              sergilenmektedir.
+            </p>
+          </div>
+        </div>       
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ankaraTrailer">
+  <a name="Augustus"></a>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-6 col-md-12 p-5 d-flex align-items-center" id="text" style="height: 500px!important" data-aos="fade-left" data-aos-duration="2000">
+        <div class="row mt-5">
+          <div class="col-12">
+            <h1 class="font-Abril">Augustus Tapınağı</h1>
+          </div>
+          <div class="col-12">
+            <p class="font-Mukta">
+              Ulus’ta Hacı Bayram Camisi’nin
+              bitişiğindedir. Son Galat kralı Amintos’un
+              oğlu Pylamenes tarafından Roma
+              İmparatoru Agustus’a bağlılık nişanesi
+              ve Galatya eyaletinin Roma’ya katılışını
+              kutlamak amacıyla MS 25 yılında yapılmış
+              olmalıdır. Tapınak kolonadının kuzeybatı
+              uzantısı üzerindeki yazıttan tapınağın
+              Agustus ve Tanrıça Roma’ya adandığı
+              bilinmektedir. Hristiyanlar tarafından
+              kiliseye dönüştürülen tapınağın kuzeybatı
+              köşesine 15. yüzyılda Hacıbayram Camisi
+              eklenmiştir. Tapınak kısa yanlarında 8,
+              uzun yanlarında ise 15 sütunu kapsayan
+              korinth düzenindeki bir peristasis ile
+              çevrilmiştir. Yalnız iki yan duvarı ile
+              kenarları işlemeli olan kapı kısmı eski
+              hali ile ayakta durmaktadır. Bu büyük
+              ve görkemli kapıdan kutsal yapının iç
+              bölümüne ve pronaos denilen üstü kapalı
+              bir geçide ulaşılır. Tapınağın öteki ucunda
+              ise anteler arasında korinth düzeninde
+              iki sütunu bulunan opisthodomos yer
+              alır. Tapınağın duvarlarında, İmparator
+              Agustus tarafından ölümünden sonra Ocak
+              Rahibeleri’ne teslim edilen dört belgeden,
+              yaşamı boyunca yaptığı işleri anlatan index
+              rerum gestarum adlı son belge Yunanca ve
+            Latince yazılmış olarak yer alır. </p>
+          </div>
+        </div>       
+      </div>
+      <div class="col-12 col-lg-6 col-md-12 p-0 mt-0 order-first order-sm-first order-md-first order-lg-last order-xl-last">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/MonumentumAncyranum28Nov2004.jpg" class="img-fluid w-100">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="w-100 mt-5" style="height: 750px; background: #1a1a1a;" id="footer">
+  <div class="container">
+    <div class="row text-white p-5">
+      <div class="col-6 col-sm-6 col-md-4 mt-5">
+        <h5 class="font-Abril">Hızlı Link</h5>
+        <ul class="list-unstyled">
+          <li class="mt-3"><a class="text-decoration-none font-Mukta" href="../index.html" target="_blank">Anasayfa</a></li>
+          <li class="mt-3"><a class="text-decoration-none font-Mukta" href="Anıtkabir.html" target="_blank">Anıtkabir</a></li>
+          <li class="mt-3"><a class="text-decoration-none font-Mukta" href="gezilecekYerler.html" target="_blank">Gezilecek Yerler</a></li>
+          <li class="mt-3"><a class="text-decoration-none font-Mukta" href="Yemekler.html" target="_blank">Yemekler</a></li>
+          <li class="mt-3"><a class="text-decoration-none font-Mukta" href="galeri.html" target="_blank">Galeri</a></li>
+          <li class="mt-3"><a class="text-decoration-none font-Mukta" href="Yazarlar.html" target="_blank">Yazarlar</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-sm-6 col-md-4 mt-5">
+        <h5 class="font-Abril">İletişim</h5>
+        <ul class="list-unstyled">
+          <li class="mt-3">
+            <a class="text-decoration-none text-secondary font-Mukta" href="https://www.google.com/maps/place/Bartin+University/@41.6006658,32.3458422,15z/data=!4m5!3m4!1s0x0:0x8c585122610053cc!8m2!3d41.6006658!4d32.3458422" target="_blank">
+              <p><span class="d-block fst-italic text-white">Adress:</span> <span> Bartın Üniversitesi Ağdacı Yerleşkesi Merkez/Bartın,74100</span></p>
+            </a>
+          </li>
+          <li class="mt-3">
+            <a class="text-decoration-none text-secondary font-Mukta" href="https://w3.bartin.edu.tr/iletisim/iletisim.html" target="_blank">
+              <p><span class="d-block fst-italic text-white">Telefon:</span> <span> +90 (378) 223 50 42</span></p>
+            </a>
+          </li>
+          <li class="mt-3">
+            <a class="text-decoration-none text-secondary font-Mukta" href="mailto:bartinuniversitesi@hs01.kep.tr" target="_blank">
+              <p><span class="d-block fst-italic text-white">E-posta:</span> <span> bartinuniversitesi@hs01.kep.tr</span></p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 mt-5">
+        <h5 class="font-Abril">Abone Ol</h5>
+        <p class="text-secondary">Bültenimize kayıt olun</p>
+        <form action="#" class="footer-newsletter">
+          <div class=" row w-100 border-bottom border-secondary d-flex align-items-center justify-content-center">
+            <div class="col-10">
+              <input type="email" class="form-control bg-transparent border-0 rounded-0 fst-italic" placeholder="Mail adresiniz...">
+            </div>
+            <div class="col-2">
+              <a href="" class="text-white"><i class="fas fa-paper-plane"></i></a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="col-12 mt-4">
+        <hr class="w-100">
+        <li class="list-unstyled">
+          <p class="text-secondary text-center mt-5">
+            Copyright ©
+            2021 Tüm hakları saklıdır | Bu şablon BTBS tarafından yapılmıştır 
+            <i class="fa fa-heart" aria-hidden="true"></i> by 
+            <a href="https://btbs.bartin.edu.tr/" class="text-decoration-none font-Mukta" target="_blank">BTBS</a>
+          </p>
+        </li>
+        <ul class="list-unstyled d-flex align-items-center justify-content-center mb-5">
+          <li><a href="https://www.facebook.com/bartinedu" target="_blank"><i class="fab fa-facebook-f m-2"></i></a></li>
+          <li><a href="https://twitter.com/bartineduu" target="_blank"><i class="fab fa-twitter m-2"></i></a></li>
+          <li><a href="https://www.instagram.com/bartinuni/" target="_blank"><i class="fab fa-instagram m-2"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/bart%C4%B1n-%C3%BCniversitesi/" target="_blank"><i class="fab fa-linkedin-in m-2"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UCQeK1UvgIfEUObpDzHMeiEA" target="_blank"><i class="fab fa-youtube m-2"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </html>

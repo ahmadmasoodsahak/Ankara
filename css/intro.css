@@ -88,3 +88,8 @@ height: 990px!important;
   padding: 30px!important;
   }
 }
+@media (min-width: 0px) and (max-width: 992px){
+  .modal-body img{
+  height: 100%!important;
+  }
+}
